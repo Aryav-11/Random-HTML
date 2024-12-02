@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice</title>
+    <link rel="stylesheet" href="Home_page_style.css">
+    <script src="Home_page_js.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 id="demo_h1">JavaScript Practice</h1>
+        <p id="demo_p">Here I will Do JavaScript Practice.</p>
+        <p id="demo_p1">Click 'Click Me Too!! 2' Add Two Random Numbers</p>
+    </div>
+    <div class="btn-group">
+        <button type="button" onclick="console.log('Well! Now It Is Clear Dude.')" class="btn  btn-outline-primary btn-lg">Debug It!</button>
+
+        <button type="button" onclick="window.print()" class="btn  btn-outline-primary btn-lg">Print The Page!</button>
+
+        <button type="button" class="btn  btn-outline-primary btn-lg" onclick="document.getElementById('demo_h1').innerHTML = 'I Love Javascript'">Click Me!</button>
+
+        <button type="button" class="btn  btn-outline-primary btn-lg" onclick="macDidIt()">Click Me Too!!</button>
+
+        <button type="button" class="btn  btn-outline-primary btn-lg" onclick="Adder()">Click Me Too 2!!</button>
+    </div>
+</body>
+
+</html>

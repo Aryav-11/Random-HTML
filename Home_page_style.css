@@ -1,0 +1,20 @@
+#demo_h1 {
+    font-weight: bold;
+    font-family: Franklin Gothic Medium;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 45px;
+}
+
+#demo_p {
+    font-family: Franklin Gothic Medium;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#demo_p1 {
+    font-family: Franklin Gothic Medium;
+    text-align: center;
+    font-size: 20px;
+}
